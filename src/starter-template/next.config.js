@@ -14,7 +14,7 @@ module.exports = {
         return config;
     },
     skipTrailingSlashRedirect: true,
-    output: process.env.SF_BUILD_STANDALONE === 'true' ? 'standalone' : undefined,
+    output: 'standalone',
     experimental: {
         proxyTimeout: 60000
     },
